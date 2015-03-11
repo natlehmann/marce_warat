@@ -33,3 +33,35 @@ body {
 .encabezado {
 	display: none;
 }
+
+.menu {
+	margin-left: 0px;
+}
+
+.menu table {
+    height: 50px;
+    padding-right: 0px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.menu-item-1,
+.menu-item-2 {
+	width: 50%;
+	text-transform: uppercase;
+}
+
+.menu  a,
+.menu  a:visited,
+.menu  a:active,
+.menu  a:link,
+.menu  a:hover {
+	font-style: normal;
+}
+
+.menu table td {
+	border: 1px solid #817069;
+}
+
+
