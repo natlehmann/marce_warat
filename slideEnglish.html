@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<link rel="stylesheet" type="text/css" href="style/style.css" />
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="js/jquery.backstretch.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			var imagenes = [
+    			"imgs/01.jpg"
+    			, "imgs/02.jpg"
+    			, "imgs/03.jpg"
+    			, "imgs/04.jpg"
+				, "imgs/05.jpg"
+				, "imgs/06.jpg"
+				, "imgs/07.jpg"
+				, "imgs/08.jpg"
+				, "imgs/09.jpg"																							    			, "imgs/10.jpg"																							    			, "imgs/11.jpg"																											    			, "imgs/12.jpg"																																																																	    			, "imgs/13.jpg"																																								    			, "imgs/14.jpg"																																											    			, "imgs/15.jpg"																																															    			, "imgs/16.jpg"																																																			    			, "imgs/17.jpg"																																																							    			, "imgs/18.jpg"
+																																																																
+  			];
+
+  			// Precarga de todas la imagenes
+			$(imagenes).each(function(){
+    			$("<img/>")[0].src = this; 
+  			});
+
+			// Almacena cual imagen esta activa
+  			var index = 0;
+
+			// Aplicamos la primera imagen del arreglo 
+			// y lo configuramos para que realice un efecto de transición (fadeIn) 
+			// de 500 milisegundos entre cada cambio imagen
+			$.backstretch(imagenes[index], {speed: 500});
+
+			// setInterval es una funcion que se repite determinado tiempo
+			// en este caso cada 5000 milisegundos incrementando el index
+			// y aplicando una nueva imagen
+			setInterval(function() {
+    			index = (index >= imagenes.length - 1) ? 0 : index + 1;
+    			$.backstretch(imagenes[index]);
+    		}, 5000);
+		});
+	</script>
+	<title>Imagen de fondo dinamica</title>
+</head>
+<body>
+<div class="encabezado">
+<a href="index.html"><img src="imgs/logo1.png" width="322" height="106" /></a>
+</div>
+<div class="menu">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="14%"><a href="roxanaWarat.html" target="_self">roxanawarat</a></td>
+    <td width="86%"><a href="contacto.html" target="_self">contacto</a></td>
+  </tr>
+</table>
+
+</div>
+
+</body>
+</html>
