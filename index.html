@@ -1,12 +1,17 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
-<link rel="stylesheet" type="text/css" href="style/style.css" />
+	<link rel="stylesheet" type="text/css" href="style/style.css" />
+	<link rel="stylesheet" href="style/mobile.css" type="text/css" media="only screen and (max-width : 568px)" />
+	<link rel="stylesheet" href="style/mobile.css" type="text/css" media="only screen and (max-width : 792px) and (orientation : portrait)" />
+
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 	<script src="js/jquery.backstretch.min.js"></script>
 	<script type="text/javascript">
-		$(function(){
+		$(function() {
 			//invocamos la función y le asignamos una imagen
 			$.backstretch("imgs/00.jpg");
 		});
@@ -14,19 +19,20 @@
 	<title>RoxanaWarat</title>
 </head>
 <body>
-<div class="idioma">
-<div  class="logo">
-<table>
-  <tr>
-    <td colspan="2"><img src="imgs/logo.png" width="322" height="106" /></td>
-    </tr>
-  <tr>
-    <td class="btizq"><strong><a href="slideEnglish.html">english</a></strong></td>
-    <td class="btder"><strong><a href="slideEspanol.html">español</a></strong></td>
-  </tr>
-</table>
-</div>
-</div>
+	<div class="idioma">
+		<div class="logo">
+			<table>
+				<tr>
+					<td colspan="2"><img src="imgs/logo.png" width="322"
+						height="106" /></td>
+				</tr>
+				<tr>
+					<td class="btizq"><strong><a href="slideEnglish.html">english</a></strong></td>
+					<td class="btder"><strong><a href="slideEspanol.html">español</a></strong></td>
+				</tr>
+			</table>
+		</div>
+	</div>
 
 
 </body>
