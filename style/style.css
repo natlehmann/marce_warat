@@ -196,10 +196,6 @@ padding-left: 60px;
 	
 }
 
-.contenido img{
-    padding-top: 27px;
-}
-
 
 .contenido a {
 	font-family:helvetica, verdana, arial, sans-serif;
@@ -319,4 +315,32 @@ textarea {
 
 .menu-item-2 {
 	width: 86%;
+}
+
+.roxana-warat {
+	background-color: #2c241e;
+}
+
+.contenedor-foto-texto {
+	width: 100%;
+}
+
+.texto-roxana {
+	padding-right: 3%;
+    width: 52%;
+	float: left;
+}
+
+.texto-roxana p {
+	color: #FFF; 
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+.foto-roxana {
+	width: 45%;
+	float: left;
+}
+
+.encabezado-mobile {
+	display: none;
 }
