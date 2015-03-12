@@ -5,7 +5,7 @@ body {
 
 .idioma {
 	margin-left: 0px;
-    margin-top: 50%;
+    margin-top: 30%;
     width: 100%;
     height: 220px;
 }
@@ -28,6 +28,16 @@ body {
 .idioma table td.btder {
 	text-align: left;
 	padding-top: 40px;
+}
+
+.logo{
+	 padding-top: 40px;
+}
+
+.logo table img {
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
 }
 
 .encabezado {
@@ -86,7 +96,7 @@ body {
 	top: 0px;
 	left: 0px;
 	width: 100%;
-	height: 400px;
+	height: 220px;
 	overflow: hidden;
 	float: none;
 	clear: both;
@@ -95,14 +105,14 @@ body {
 .foto-roxana img {
 	width: 100%;
 	height: auto;
-	margin-top: -40px;
+	margin-top: -65px;
 }
 
 .texto-roxana {
 	clear: both;
     float: none;
-    height: 300px;
-    margin-top: 430px;
+    height: 170px;
+    margin-top: 220px;
     overflow-y: scroll;
     padding: 5%;
     width: 90%;
@@ -112,6 +122,11 @@ body {
 	padding-top: 0px;
 	height: auto;
 	overflow: hidden;
+}
+
+.contacto .foto-roxana img {
+    margin-left: -80px;
+    width: 140%;
 }
 
 .texto-roxana p,
