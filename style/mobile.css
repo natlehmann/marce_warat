@@ -69,7 +69,8 @@ body {
 }
 
 
-.contenido {
+.contenido,
+.contacto {
     font-size: 12px;
     padding-left: 0px;
     padding-top: 0px;
@@ -107,7 +108,18 @@ body {
     width: 90%;
 }
 
-.texto-roxana p {
+.contacto .texto-roxana {
+	padding-top: 0px;
+	height: auto;
+	overflow: hidden;
+}
+
+.texto-roxana p,
+.texto-roxana a,
+.texto-roxana a:link,
+.texto-roxana a:active,
+.texto-roxana a:visited,
+.texto-roxana a:hover {
 	color: #2b241e; 
 }
 

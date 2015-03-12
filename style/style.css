@@ -180,7 +180,8 @@ padding-left: 60px;
    
 }		
 
-.contenido{
+.contenido,
+.contacto {
  font-size: 12px;
     padding-left: 18%;
     padding-top: 3%;
@@ -188,79 +189,24 @@ padding-left: 60px;
    
 }
 
-.contenido td{
-    line-height: 1.5;
-    margin: 20px;
-    padding-right: 30px;
-    text-align: justify;
-	
-}
-
-
-.contenido a {
-	font-family:helvetica, verdana, arial, sans-serif;
-    font-size: 13px;
-    padding: 12px;
-    text-decoration: none;
-	color: white;
-	font-style:italic;
-
- }
-
-.contenido a:hover {
-	font-family:helvetica, verdana, arial, sans-serif;
-    font-size: 13px;
-    padding: 12px;
-    text-decoration: none; 		
-	color: white;
-	font-style:italic;
-}
-
-.contacto{
- font-size: 12px;
-    padding-left: 18%;
-    padding-top: 3%;
-    width: 80%;
-   
-}
-
-.contacto td{
-    line-height: 1.5;
-    margin: 20px;
-    padding-right: 30px;
-    text-align: justify;
-		font-family:helvetica, verdana, arial, sans-serif;
-    font-size: 13px;
-    padding: 12px;
-    text-decoration: none; 		
-	color: white;
-	
-}
-
-.contacto img{
-    padding-top: 27px;
-}
-
-
+.contenido a,
 .contacto a {
 	font-family:helvetica, verdana, arial, sans-serif;
     font-size: 13px;
-    padding: 12px;
     text-decoration: none;
 	color: white;
-
+	font-style:italic;
 
  }
 
+.contenido a:hover,
 .contacto a:hover {
 	font-family:helvetica, verdana, arial, sans-serif;
     font-size: 13px;
-    padding: 12px;
     text-decoration: none; 		
 	color: white;
-
+	font-style:italic;
 }
-
 
 @-moz-document url-prefix() {
   .scroll {
@@ -329,6 +275,10 @@ textarea {
 	padding-right: 3%;
     width: 52%;
 	float: left;
+}
+
+.contacto .texto-roxana {
+	padding-top: 300px;
 }
 
 .texto-roxana p {
