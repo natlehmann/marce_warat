@@ -41,7 +41,8 @@ body {
 	margin: 0 auto;
 }
 
-.encabezado {
+.encabezado,
+.encabezadoHome {
 	display: none;
 }
 
@@ -69,6 +70,7 @@ body {
 .menu  a:link,
 .menu  a:hover {
 	font-style: normal;
+	font-weight:bold;
 }
 
 .menu table td {
@@ -89,7 +91,8 @@ body {
 }
 
 .roxana-warat {
-	background-color: #fff;
+	/*background-color: #fff;*/
+	background-color: #2c241e;
 }
 
 .foto-roxana {
@@ -109,7 +112,8 @@ body {
 	margin-top: -65px;
 }
 
-.texto-roxana {
+.texto-roxana,
+.texto-roxana-mail {
 	clear: both;
     float: none;
     height: 170px;
@@ -117,17 +121,19 @@ body {
     overflow-y: scroll;
     padding: 5%;
     width: 90%;
+	text-align: justify;
+	line-height: 1.5;
 }
 
-.contacto .texto-roxana {
+.contacto .texto-roxana,
+.contacto .texto-roxana-mail {
 	padding-top: 0px;
 	height: auto;
 	overflow: hidden;
 }
 
-.contacto .foto-roxana img {
-    margin-left: -80px;
-    width: 140%;
+.contacto .texto-roxana-mail {
+    padding-top: 50px;
 }
 
 .texto-roxana p,
@@ -135,14 +141,21 @@ body {
 .texto-roxana a:link,
 .texto-roxana a:active,
 .texto-roxana a:visited,
-.texto-roxana a:hover {
-	color: #2b241e; 
+.texto-roxana a:hover,
+.texto-roxana-mail p,
+.texto-roxana-mail a,
+.texto-roxana-mail a:link,
+.texto-roxana-mail a:active,
+.texto-roxana-mail a:visited,
+.texto-roxana-mail a:hover {
+	/*color: #2b241e; */
+		background-color: #2c241e;
 }
 
 .encabezado-mobile {
 	display: block;
 	z-index: 1000;
-	font-family:helvetica, verdana, arial, sans-serif;
+	font-family: GothamRnd-Light, helvetica, verdana, arial, sans-serif;
     font-size: 18px;
     text-transform: uppercase;
     padding: 5%;
@@ -178,7 +191,7 @@ body {
 .cerrar a:hover {
 	color: #fff;
 	text-decoration: none;
-	font-family:helvetica, verdana, arial, sans-serif;
+	font-family:GothamRnd-Light, helvetica, verdana, arial, sans-serif;
     font-size: 18px;
-    font-style: bold;
+    /*font-style: bold;*/
 }
